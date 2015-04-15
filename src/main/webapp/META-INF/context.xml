@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/umfrage" docBase="umfrage-web" reloadable="true">
+
+    <Resource name="jdbc/example/exampleDS" auth="Container"
+              type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver"
+              url="jdbc:oracle:thin:@192.168.56.101:1521:xe"
+              username="USER" password="PASSWORD" maxActive="20" maxIdle="10"
+              antiJARLocking="true"
+              maxWait="-1"/>
+
+</Context>
